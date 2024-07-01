@@ -23,4 +23,4 @@ function Cabecera(){
     )
 }
 
-export default Cabecera
+export default Cabecera; 
