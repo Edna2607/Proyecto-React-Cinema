@@ -3,12 +3,14 @@ import styles from "./Player.module.css";
 import Titulo from "components/Titulo";
 import { useParams } from "react-router-dom";
 import videos from "data/db.json";
+import NotFound from "pages/NotFound";
 
 function Player() {
 
     const parametros = useParams()
     const video = videos.find(video => video.id === Number(parametros.id))
     console.log(video);
+    if(!video) return<NotFound/> /*Si no encuentra ningun video entonces se muestra la pagina de no encontrado */
 
     return (
         <>
