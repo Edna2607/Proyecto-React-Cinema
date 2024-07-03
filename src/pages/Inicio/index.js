@@ -8,11 +8,6 @@ import videos from "data/db.json"
 function Inicio() {
   return (
     <>
-      
-      <Banner img="home" color="#154580" />
-      <Titulo>
-        <h1>Un lugar para guardar Tus videos Favoritos</h1>
-      </Titulo>
 
       <section className={styles.container}>
         {videos.map((video) => {
@@ -20,7 +15,7 @@ function Inicio() {
         })}
       </section>
 
-     
+
     </>
   );
 }
