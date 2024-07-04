@@ -1,6 +1,6 @@
-import Banner from "components/Banner";
+import Banner from "components/Banner-principal";
 import styles from "./Player.module.css";
-import Titulo from "components/Titulo";
+import Titulo from "components/Titulo1";
 import { useParams } from "react-router-dom";
 
 import NotFound from "pages/NotFound";

@@ -1,5 +1,5 @@
-import Banner from "components/Banner";
-import Titulo from "components/Titulo";
+import Banner from "components/Banner-principal";
+import Titulo from "components/Titulo1";
 import Card from "components/Card";
 import styles from "./index.module.css"
 import { useEffect, useState } from "react";
